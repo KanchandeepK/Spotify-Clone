@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="logo.png" alt="Spotify">Spotify</li>
+            <li >
+                <a href="#">Home</a>
+                </li>
+            <li>
+                <a href="#">About</a>
+                </li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="songList">
+            <h1>Best of NCS - No Copyright Sounds</h1>
+            <div class="songItemContainer">
+                <div class="songItem">
+                    <img src="cover1.jpg" alt="1" >
+                    <span class="songName">Eyes On You - Radio Mix</span>
+                    <span class="songlistplay">
+                        <span class="timestamp">03:10
+                            <i id="0" class="far songItemPlay fa-play-circle"></i>
+                        </span>
+                    </span>
+                </div>
+                <div class="songItem">
+                    <img src="cover2.jpg" alt="1" >
+                    <span class="songName">Dandelions</span>
+                    <span class="songlistplay">
+                        <span class="timestamp">03:53
+                            <i id="1" class="far songItemPlay fa-play-circle"></i>
+                        </span>
+                    </span>
+                </div>
+                <div class="songItem">
+                    <img src="cover3.jpg" alt="1" >
+                    <span class="songName">Pasoori</span>
+                    <span class="songlistplay">
+                        <span class="timestamp">03:44
+                            <i id="2" class="far songItemPlay fa-play-circle"></i>
+                        </span>
+                    </span>
+                </div>
+                <div class="songItem">
+                    <img src="cover4.jpg" alt="1" >
+                    <span class="songName">Leekan</span>
+                    <span class="songlistplay">
+                        <span class="timestamp">03:35
+                            <i id="3" class="far songItemPlay fa-play-circle"></i>
+                        </span>
+                    </span>
+                </div>
+                <div class="songItem">
+                    <img src="cover5.jpg" alt="1" >
+                    <span class="songName">Lemonade</span>
+                    <span class="songlistplay">
+                        <span class="timestamp">02:46
+                            <i id="4" class="far songItemPlay fa-play-circle"></i>
+                        </span>
+                    </span>
+                </div>
+                <div class="songItem">
+                    <img src="cover6.jpg" alt="1" >
+                    <span class="songName">Safar(From "Jab Harry Met Sejal")</span>
+                    <span class="songlistplay">
+                        <span class="timestamp">06:05
+                            <i id="5" class="far songItemPlay fa-play-circle"></i>
+                        </span>
+                    </span>
+                </div>
+                <div class="songItem">
+                    <img src="cover7.jpg" alt="1" >
+                    <span class="songName">Ikko-Mikke-Title Track</span>
+                    <span class="songlistplay">
+                        <span class="timestamp">06:38
+                            <i id="6" class="far songItemPlay fa-play-circle"></i>
+                        </span>
+                    </span>
+                </div>
+                <!-- <div class="songItem">
+                    <img src="cover8.jpg" alt="1" >
+                    <span>Perfect</span>
+                    <span class="songlistplay">
+                        <span class="timestamp">04:23
+                            <i class="far fa-play-circle"></i>
+                        </span>
+                    </span>
+                </div> -->
+            </div>
+        </div>
+        <div class="songBanner"></div>
+    </div>
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
+        <div class="icons">
+            <!--fontawesome icons-->
+            <!-- <i class="fa-solid fa-3x fa-backward-fast"></i>
+            <i class="fa-regular fa-3x fa-circle-play"></i>
+            <i class="fa-solid fa-3x fa-forward-fast"></i> -->
+            <i class="fas fa-3x fa-step-backward" id="previous"></i>&nbsp;
+            <i class="fas fa-3x fa-play-circle" id="masterPlay"></i>&nbsp;
+            <i class="fas fa-3x fa-step-forward" id="next"></i>
+        </div>
+        <div class="songInfo">
+            <img src="playing.gif" width="75px" id="gif"><span id="masterSongName">Eyes On You - Radio Mix</span>
+        </div>
+    </div>
+<script src="https://kit.fontawesome.com/7a13ad107f.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
